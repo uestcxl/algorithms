@@ -22,7 +22,7 @@ void InsertSort(int a[]){
             //将前一个值后移至当前位置
             a[i]=a[i-1];
             //往前循环，直到待插入值大于等于j位置的值
-            while(data < a[j]){
+            while(data < a[j] && j>=0){
                 a[j+1]=a[j];
                 j--;
             }
