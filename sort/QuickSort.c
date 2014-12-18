@@ -6,7 +6,6 @@
 
 #include "data.h"
 #include "time.h"
-extern a[LENGTH];
 
 void swap(int *a , int *b){
     int tmp;
